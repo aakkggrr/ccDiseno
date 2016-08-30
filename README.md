@@ -1,185 +1,47 @@
 ## ccDiseno
 
-Algunos ejercicios realizados en la especialidad de Codigo Creativo para Diseño
+Algunos ejercicios realizados en la Especialidad de Codigo Creativo para Diseño. CENTRO.
 
-Poner su nombre en este archivo readme.md
+_______________________________________
+## Ejercicios 
+ 1. Poner su nombre en este archivo readme.md
+ - 1.1 Hacer tutorial de comandos de git (tomen nota y sean pacientes).
+ - 1.2 Agregar carpeta con su nombre al repositorio.
+ 2. 
 
 ## Participantes:
 
- - Eduardo H Obieta
+ - Eduardo H. Obieta
+ - ...
  - 
-
- > Para agregar tu nombre, a esta lista sigue los pasos
-- Clonar el repositorio, 
-> desde la terminal entra a la carpeta destino "cd tusDocumentos/tuCarpetaGit"
+ - 
+_______
+#### Ejercicio 1. 
+##### Incorporar su nombre en este archivo (readme.md), para ello utilizaremos github desde la terminal.
+##### Agregar una carpeta con su nombre al repositorio.
+_______
+ Una vez teniendo instalado git en su sistema, sigue estos pasos:
+1. Clonar el repositorio, 
+ * desde la terminal navega a la carpeta destino "cd tusDocumentos/tuCarpetaGit", acá dejo un link con los comandos básicos UNIX 
+ > http://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/
  -  Clona el repositorio con:
+ 
  ```sh
 $ git clone https://github.com/laadeho/ccDiseno.git
-
 ```
  - Te pedirá nombre de usuario y contraseña. 
- - Abre el archivo "readme.md" de /tuCarpetaGit que se descargó al clonar el repositorio
- - 
+> Si quedaron dudas de los comandos de git (cosa que es muy probable), pueden hacer este tutorial express, que es sin dudas muy bueno, (redomendado por Diego Beauroyre). https://try.github.io/levels/1/challenges/1 
 
-
-
-
->//////////////////////////////////////////////////
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-### Version
-3.2.7
-
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [Marked] - a super fast port of Markdown to JavaScript
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-### Installation
-
-You need Gulp installed globally:
-
-```sh
-$ npm i -g gulp
+Una vez clonado el repositorio:
+2. Abre el archivo "readme.md" de /tuCarpetaGit que se descargó al clonar el repositorio, está generado en el formato Markdown ".md", que puede ser editado con cualquier editor de texto; o bien, si quieren visualizar mientras editan, pueden hacerlo en http://dillinger.io. Ahí mismo se encuentran las instrucciones para editar un archivo md. 
+ -  En este caso solo necesitamos incorporar nuestro nombre a la lista de participantes.
+ 3. Crea una carpeta con tu nombre en la ubicación de git (puede ser desde finder), y ejecuta los comandos necesarios para subir dicha carpeta al repositorio:
+ ```sh
+$ cd miCarpetaGit
+$ cd git status   // conocer el estado del repositorio git
+$ cd git pull     // solo en caso de que status nos indique que es necesario actualizar
+$ cd git add      // agreguemos nuestros archivos y/o carpetas nuevas
+$ cd git commit -am "mensaje"      // Poner mensaje al resto del equipo sobre los cambios 
+$ cd git push     // Subir nuestros archivos nuevos
+introducir nombre de usuario y contraseña (en caso de que lo solicite)
 ```
-
-```sh
-$ git clone [git-repo-url] dillinger
-$ cd dillinger
-$ npm i -d
-$ gulp build --prod
-$ NODE_ENV=production node app
-```
-
-### Plugins
-
-Dillinger is currently extended with the following plugins
-
-* Dropbox
-* Github
-* Google Drive
-* OneDrive
-
-Readmes, how to use them in your own application can be found here:
-
-* [plugins/dropbox/README.md] [PlDb]
-* [plugins/github/README.md] [PlGh]
-* [plugins/googledrive/README.md] [PlGd]
-* [plugins/onedrive/README.md] [PlOd]
-
-### Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma start
-```
-
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 80, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image. 
-
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:latest .
-```
-This will create the dillinger image and pull in the necessary dependencies. Once done, run the Docker and map the port to whatever you wish on your host. In this example, we simply map port 80 of the host to port 80 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 80:80 --restart="always" <youruser>/dillinger:latest
-```
-
-Verify the deployment by navigating to your server address in your preferred browser.
-
-### N|Solid and NGINX
-
-More details coming soon.
-
-#### docker-compose.yml
-
-Change the path for the nginx conf mounting path to your full path, not mine!
-
-### Todos
-
- - Write Tests
- - Rethink Github Save
- - Add Code Comments
- - Add Night Mode
-
-License
-----
-
-MIT
-
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [@thomasfuchs]: <http://twitter.com/thomasfuchs>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [marked]: <https://github.com/chjj/marked>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [keymaster.js]: <https://github.com/madrobby/keymaster>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]:  <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
