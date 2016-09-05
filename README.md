@@ -22,7 +22,12 @@ _______________________________________
 
 _______
 
-![Image of Yaktocat](http://giphy.com/gifs/cat-funny-cute-iZw7IcmZggQAo)
+// ___ /\
+( o   o )
+(  =^=  )
+(        )
+(         )
+(          )))))))))))
 
 _______
 
