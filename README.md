@@ -21,8 +21,9 @@ _______________________________________
  - Nicole Monsivais
 
 _______
-![GitHub Logo](http://giphy.com/gifs/cat-funny-cute-iZw7IcmZggQAo)
-Format: ![Alt Text](url)
+
+![Image of Yaktocat](http://giphy.com/gifs/cat-funny-cute-iZw7IcmZggQAo)
+
 _______
 
 ### Ejercicio 1.
