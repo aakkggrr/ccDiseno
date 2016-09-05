@@ -18,6 +18,7 @@ _______________________________________
  - Diego Navarro
  - Marisa Eguiarte
  - Diego Beauroyre
+ - Nicole Monsivais
 
 _______
 
