@@ -17,7 +17,7 @@ _______________________________________
  - Eduardo H. Obieta
  - Diego Navarro
  - Marisa Eguiarte
- -
+ - Nicole Monsivais
 
 _______
 
