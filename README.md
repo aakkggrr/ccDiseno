@@ -3,6 +3,10 @@
 Algunos ejercicios realizados en la Especialidad de Codigo Creativo para Diseño. CENTRO.
 
 _______________________________________
+## TAREA 5 Septiembre
+1. Crear 3 sólidos, creados a partir de beginShape(); - endShape();
+
+
 ## Ejercicios
  ej 1. Poner su nombre en este archivo readme.md
 
