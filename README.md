@@ -21,9 +21,17 @@ _______________________________________
  - Eduardo H. Obieta
  - Diego Navarro
  - Marisa Eguiarte
- -
+ - Diego Beauroyre
+ - Nicole Monsivais
 
 _______
+
+// ___ /\
+( o   o )
+(  =^=  )
+(        )
+(         )
+(          )))))))))))
 
 _______
 
