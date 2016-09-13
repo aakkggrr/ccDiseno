@@ -24,6 +24,7 @@ _______________________________________
  - Marisa Eguiarte
  - Diego Beauroyre
  - Nicole Monsivais
+ - Ruben Fabbri
 
 _______
 
