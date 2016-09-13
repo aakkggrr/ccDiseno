@@ -11,6 +11,7 @@ _______________________________________
  ej 1. Poner su nombre en este archivo readme.md
 
     1.1 Hacer tutorial de comandos de git (tomen nota y sean pacientes).
+    https://try.github.io/levels/1/challenges/1
 
     1.2 Agregar carpeta con su nombre al repositorio.
 
@@ -23,6 +24,7 @@ _______________________________________
  - Marisa Eguiarte
  - Diego Beauroyre
  - Nicole Monsivais
+ - Ruben Fabbri
 
 _______
 
