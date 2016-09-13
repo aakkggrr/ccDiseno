@@ -13,48 +13,8 @@ int frecuencia, frecuenciaY, ciclos = 2;
 
 void draw() {
   background(200);
-  // posCamX, Y, Z, posObjx, y, z, ORIENTACION x,y,z
-  camera(0, -100, 200, 0, 0, 0, 0, 1, 0);
-  strokeWeight(1);
-  box(30);
-  frecuencia = frameCount;
-  frecuenciaY = frameCount*3;
-
-  for (int i=0;i<360;i+=angulo) {
-    //    point(sin(radians(i+frameCount))*radio, sin(radians(i*45+frameCount))*30, cos(radians(i+frameCount))*radio);
-    strokeWeight(10);
-    //    point(sin(radians(i))*radio, sin(radians(i*2))*30, cos(radians(i))*radio);
-    //    point(sin(radians(i+frameCount))*radio, sin(radians(i*45+frameCount))*30, cos(radians(i+frameCount))*radio);
-    point(
-    sin(radians(i+frecuencia))*radio, 
-    sin(radians((i+frecuenciaY)*ciclos))*30, 
-    cos(radians(i+frecuencia))*radio
-      );
-
-    strokeWeight(2);
-    line(
-    sin(radians(i+frecuencia))*radio, 
-    sin(radians((i+frecuenciaY)*ciclos))*30, 
-    cos(radians(i+frecuencia))*radio, 
-    sin(radians(i+angulo+frecuencia))*radio, 
-    sin(radians((i+frecuenciaY+angulo)*ciclos))*30, 
-    cos(radians(i+angulo+frecuencia))*radio    
-      );
-  }
-  beginShape(TRIANGLE_STRIP);
-  for (int i=0;i<360;i+=angulo) {
-    vertex(
-    sin(radians(i+frecuencia))*radio, 
-    sin(radians((i+frecuenciaY)*ciclos))*30, 
-    cos(radians(i+frecuencia))*radio   
-      );
-    vertex(
-    sin(radians(i+frecuencia))*radio*0.7, 
-    sin(radians((i+frecuenciaY)*ciclos))*30, 
-    cos(radians(i+frecuencia))*radio*0.7   
-      );
-    endShape();
-  }
+  puntos3D();
+  //colorMode(HSB,360);
 
   if (grabar) {
     saveFrame("####.png");
@@ -66,3 +26,29 @@ void keyPressed() {
   }
 }
 
+
+void puntos3D() {
+  // posCamX, Y, Z, posObjx, y, z, ORIENTACION x,y,z
+  camera(0, -100, 200, 0, 0, 0, 0, 1, 0);
+  strokeWeight(1);
+  box(30);
+  frecuencia = frameCount;
+  frecuenciaY = frameCount*3;
+
+  switch(contenido) {
+  case 0:
+    pushStyle();
+    strokeWeight(1);
+    puntosLineas();
+    popStyle();
+    break;
+
+  case 1:
+  pushStyle();
+  noStroke();
+  caras();
+  popStyle();
+  break;
+
+  }
+}
