@@ -3,10 +3,6 @@
 Algunos ejercicios realizados en la Especialidad de Codigo Creativo para Diseño. CENTRO.
 
 _______________________________________
-## TAREA 5 Septiembre
-1. Crear 3 sólidos, creados a partir de beginShape(); - endShape();
-
-
 ## Ejercicios
  ej 1. Poner su nombre en este archivo readme.md
 
@@ -15,28 +11,12 @@ _______________________________________
 
     1.2 Agregar carpeta con su nombre al repositorio.
 
- ej 2.
 
 ## Participantes:
 
  - Eduardo H. Obieta
- - Diego Navarro
- - Marisa Eguiarte
- - Diego Beauroyre
- - Nicole Monsivais
- - Ruben Fabbri
 
 _______
-
-// ___ /\
-( o   o )
-(  =^=  )
-(        )
-(         )
-(          )))))))))))
-
-_______
-
 ### Ejercicio 1.
 ##### Incorporar su nombre en este archivo (readme.md), para ello utilizaremos github desde la terminal.
 ##### Agregar una carpeta con su nombre al repositorio.
