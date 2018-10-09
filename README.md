@@ -46,10 +46,10 @@ C. Crea una carpeta con tu nombre en la ubicación de git (puede ser desde finde
 
 ```sh
 $ cd miCarpetaGit
-$ cd git status   // conocer el estado del repositorio git
-$ cd git pull     // solo en caso de que status nos indique que es necesario actualizar
-$ cd git add      // agreguemos nuestros archivos y/o carpetas nuevas
-$ cd git commit -am "mensaje"      // Poner mensaje al resto del equipo sobre los cambios
-$ cd git push     // Subir nuestros archivos nuevos
+$ git status   // conocer el estado del repositorio git
+$ git pull     // solo en caso de que status nos indique que es necesario actualizar
+$ git add      // agreguemos nuestros archivos y/o carpetas nuevas
+$ git commit -am "mensaje"      // Poner mensaje al resto del equipo sobre los cambios
+$ git push     // Subir nuestros archivos nuevos
 introducir nombre de usuario y contraseña (en caso de que lo solicite)
 ```
