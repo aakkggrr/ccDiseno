@@ -15,6 +15,7 @@ _______________________________________
 ## Participantes:
 
  - Eduardo H. Obieta
+ - Ana Karen Garza
 
 _______
 ### Ejercicio 1.
